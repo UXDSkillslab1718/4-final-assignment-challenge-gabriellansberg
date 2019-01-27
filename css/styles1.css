@@ -1,0 +1,174 @@
+/*
+blue #8CFBDE
+darker blue #3ABEFF
+dark gray #373F51
+orange #FE621D
+middle blue green #ACDDE7
+link color #0B4F6C
+header color #01BAEF
+*/
+
+
+html{
+  box-sizing: border-box;
+}
+
+*, *:before, *:after{
+  box-sizing: inherit;
+}
+
+body{
+ margin: 0;
+}
+
+h1, h2, h3, a, p{
+  font-family: 'Oswald', sans-serif;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+h2{
+font-size: 35px;
+font-weight: 600;
+margin-top: 0px;
+}
+
+h3{
+font-size: 25px;
+font-weight: 600;
+margin: 0;
+}
+
+p{
+  font-size: 20px;
+}
+
+a:hover{
+  text-decoration: none;
+}
+
+
+header {
+  padding-top: 50px;
+  margin: 0 auto;
+  position: relative;
+  background: #01BAEF;
+}
+
+nav{
+  text-align: center;
+  background: #031926;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+nav a{
+  border-radius: 5%;
+  display: inline-block;
+  padding: 15px 20px;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+header h1, header h2{
+  color: black;
+  margin: 0;
+}
+
+.profile{
+  border-radius: 50%;
+}
+
+footer{
+  text-align: center;
+  margin: auto;
+  background: #031926;
+  color: #ACDDE7;
+}
+
+
+.work{
+  background:#8CFBDE
+  }
+
+h3 ~ p{
+  margin: 0;
+}
+
+.job{
+  margin-top: 25px;
+}
+
+.job p:first-of-type{
+  margin-top: 0;
+}
+
+.education{
+  background: linear-gradient(rgba(141,153,174,0), rgba(141,153,174,0)),
+  url(../RoccaalMareKool1999-2000.jpg) no-repeat fixed;
+  background-size: cover;
+  color: white;
+}
+
+p + h3{
+margin-top: 30px;
+}
+
+.content-wrap{
+  max-width: 950px;
+  margin: 0 auto;
+  padding: 60px 50px;
+  overflow: auto;
+}
+
+.contact-info a {
+  padding: 15px;
+  display: inline-block;
+  color: white;
+}
+
+.uppercase{
+  text-transform: uppercase;
+}
+
+.btn{
+  text-decoration: none;
+  color: white;
+  background: #031926;
+  padding: 10px;
+  display: inline-block;
+}
+
+.download{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+@media(min-width:900px){
+  .col-narrow{
+    width: 30%;
+    float: left;
+  }
+  .col-wide{
+    width: 70%;
+    float: left;
+    padding-left: 20px;
+  }
+}
+
+@media (max-width: 899px) {
+  header{
+    text-align: center;
+  }
+  .profile{
+    width: 200px;
+  }
+}
