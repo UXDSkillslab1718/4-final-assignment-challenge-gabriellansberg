@@ -86,6 +86,10 @@ header h1, header h2{
   border-radius: 50%;
 }
 
+.about{
+  background: #A594F9;
+}
+
 footer{
   text-align: center;
   margin: auto;
@@ -95,7 +99,7 @@ footer{
 
 
 .work{
-  background:#8CFBDE
+  background:#A594F9
   }
 
 h3 ~ p{
@@ -116,6 +120,14 @@ h3 ~ p{
   background-size: cover;
   color: white;
 }
+
+.proudestwork{
+  background: linear-gradient(rgba(141,153,174,0), rgba(141,153,174,0)),
+  url(../day3.png) no-repeat fixed;
+  background-size: cover;
+  color: white;
+}
+
 
 p + h3{
 margin-top: 30px;
